@@ -1,5 +1,5 @@
 function palindrome(str) {
-  // Uso match para filtrar texto eliminar _()/\||... como me va a devolver un arreglo lo joineo
+  // Uso match para filtrar texto eliminar _()/\||... devuelve un arreglo y lo joineo
   // hago un lower or un upper para evitar errores(l != L)...
   str = str.match(/[A-Za-z0-9]/gi).join("").toLowerCase();
   //recorro el string hasta encontrar un desigualdad...
