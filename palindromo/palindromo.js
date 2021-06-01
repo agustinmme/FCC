@@ -13,6 +13,6 @@ function palindrome(str) {
 // otra forma seria dar vuelta la palabra y preguntar si es igual
 function palindrome2(str) {
   str = str.match(/[A-Za-z0-9]/gi).join("").toLowerCase();
-  let polindromo = str.split('').reverse().join('');
+  var polindromo = str.split('').reverse().join('');
   return polindromo === str;
 }
